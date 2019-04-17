@@ -2,8 +2,9 @@
 App displays albums list sorted by title, It uses  ViewModel, Room DB for offline support.
 
 Improvments can be done:
-1) Use of SyncAdapter
-    Sync adapter can be used as a improvement because it Synchronizes data between an Android device and web servers can make application significantly more useful and compelling for users
+1) Use of WorkManager/SyncAdapter
+    WorkManager can be used so that even if connection is lost it will downlaod data in backgroud and insert into DB so, when user will       open the app he can see data.
+    Sync adapter can be used as a improvement because it Synchronizes data between an Android device and web servers can make application     significantly more useful and compelling for users
     and transferring data from a server makes it available to the user even when the device is offline .
 
  
